@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack main.js bundle.js"
+    "build": "webpack"
   },
   "devDependencies": {
     "webpack": "^1.13.0"
