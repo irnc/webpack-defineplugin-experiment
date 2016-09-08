@@ -42,10 +42,19 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
+
+	const custom = __webpack_require__(1).CUSTOM;
 
 	console.log('Hello World!');
+	console.log(custom);
 
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	
 
 /***/ }
 /******/ ]);
