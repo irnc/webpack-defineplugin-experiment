@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "clean-install": "rm -rf npm-shrinkwrap.json node_modules/ && npm i",
     "build": "npm shrinkwrap --dev && webpack"
   },
   "devDependencies": {
