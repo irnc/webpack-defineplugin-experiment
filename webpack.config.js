@@ -8,6 +8,6 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
-    new webpack.EnvironmentPlugin(['CUSTOM']),
+    new webpack.DefinePlugin({ 'process.env.CUSTOM': '"custom"' }),
   ],
 };
