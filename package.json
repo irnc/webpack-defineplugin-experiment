@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack"
+    "build": "npm shrinkwrap --dev && webpack"
   },
   "devDependencies": {
     "webpack": "^1.13.0"
